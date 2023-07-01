@@ -1,0 +1,17 @@
+name: repository
+description: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  afisha_api:
+    path: ../afisha_api
+  json_annotation: ^4.8.0
+  http: ^0.13.5
+  equatable: ^2.0.5
+
+dev_dependencies:
+  build_runner: ^2.3.3
+  json_serializable: ^6.6.1
